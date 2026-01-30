@@ -3,7 +3,7 @@
 This repository provides a maintained implementation aimed at reproducing the results of the paper
 **["SwinCheX: Multi-label classification on chest X-ray images with transformer"](https://arxiv.org/abs/2206.04246)**.
 
-The codebase was adapted to run efficiently on the **Heisenberg HPC cluster** at **Ilum – School of Science**, as part of the activities developed during the **Winter Internship at the [Brazilian Synchrotron Light Laboratory (LNLS)](https://lnls.cnpem.br/en/)** within the **Data Science Group (GCD)**.
+The codebase was adapted to run efficiently on the **Heisenberg HPC cluster** at **Ilum – School of Science**, as part of the activities developed during the **Winter Internship at the [Brazilian Synchrotron Light Laboratory (LNLS)](https://lnls.cnpem.br/en/)** within the **[Data Science Group (GCD)](https://lnls.cnpem.br/grupos/gcd-en/)**.
 
 ## Main Code Adaptations
 
