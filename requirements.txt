@@ -1,0 +1,7 @@
+cudatoolkit==12.1
+torch==2.1.0
+torchvision==0.16.0
+timm==0.4.12
+opencv-python==4.8.1.78
+termcolor==2.4.0
+yacs==0.1.8
