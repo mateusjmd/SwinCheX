@@ -62,11 +62,34 @@ python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345 main.p
   --accumulation-steps 4
 ```
 ## Results
-TODO
+The Swin-T-based model was trained for **300 epochs**, demonstrating strong generalization performance across both validation and test sets.
+
+### Training Runtime
+
+- Average training time per epoch: **23.66 min**
+
+### Validation Results
+
+The model achieved high discriminative capability during validation:
+
+| Metric       | Value       |
+| ------------ | ----------- |
+| **Mean AUC** | **0.75440** |
+| **Accuracy** | **95.57%**  |
+| **Loss**     | **0.16972** |
+
+### Test Results
+
+On the held-out test set, the model maintained competitive performance:
+
+| Metric       | Value       |
+| ------------ | ----------- |
+| **Mean AUC** | **0.72008** |
+| **Accuracy** | **92.45%**  |
+| **Loss**     | **0.23426** |
+
 
 ## 📌 Notes and Observations
-
-- Validation and test **ROC-AUC scores** can be extracted from the generated `log.txt` file.
 
 - If all images are stored in a single directory, then the `--trainset`, `--validset`, and `--testset` arguments should all point to the same folder.
 
