@@ -43,8 +43,7 @@ Example:
 ```
 
 ## 5. Execute the Grad-CAM Pipeline
-
-Finally, submit the script for execution:
+Ensure that the checkpoint corresponding to the best training epoch (highest AUC score) is located in the same directory as `gradcam_auto.py` and `gradcam_auto.sh`. Finally, submit the script for execution:
 
 ```bash
 sbatch gradcam_auto.sh
