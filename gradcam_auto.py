@@ -1,5 +1,4 @@
 # -*- coding: latin-1 -*-
-# gradcam_inference.py
 """
 Grad-CAM inference script for SwinCheX
 ------------------------------------
@@ -46,7 +45,6 @@ TARGET_CLASS_IDX = NIH_CLASSES.index(TARGET_CLASS_NAME)
 # --------------------------------------------------
 def build_fake_args(cfg_path):
     return SimpleNamespace(
-        # obrigat�rio
         cfg=cfg_path,
         opts=None,
 
