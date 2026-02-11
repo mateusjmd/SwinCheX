@@ -52,9 +52,9 @@ python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345 main.p
   --local_rank 0 \
   --cfg configs/swin_tiny_patch4_window7_224.yaml \
   --resume swin_tiny_patch4_window7_224.pth \
-  --trainset /home/mateus25032/work/GCD/SwinCheX/CheX-ray14/images \
-  --validset /home/mateus25032/work/GCD/SwinCheX/CheX-ray14/images \
-  --testset  /home/mateus25032/work/GCD/SwinCheX/CheX-ray14/images \
+  --trainset path/to/trainset/images \
+  --validset path/to/validset/images \
+  --testset  path/to/testset/images \
   --train_csv_path configs/NIH/train.csv \
   --valid_csv_path configs/NIH/validation.csv \
   --test_csv_path  configs/NIH/test.csv \
