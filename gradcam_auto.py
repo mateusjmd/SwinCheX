@@ -50,7 +50,7 @@ def build_fake_args(cfg_path):
         cfg=cfg_path,
         opts=None,
 
-        # paths / datasets (n�o usados em Grad-CAM)
+        # paths / datasets
         data_path=None,
         trainset=None,
         validset=None,
@@ -63,7 +63,7 @@ def build_fake_args(cfg_path):
         output=None,
         tag=None,
 
-        # training flags (desativados)
+        # training flags
         batch_size=1,
         accumulation_steps=1,
         use_checkpoint=False,
@@ -76,7 +76,7 @@ def build_fake_args(cfg_path):
         zip=False,
         cache_mode="no",
 
-        # NIH / SwinCheX�specific
+        # NIH / SwinCheX-specific
         num_mlp_heads=0,
 
         # distributed (dummy)
