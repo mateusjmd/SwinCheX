@@ -88,6 +88,14 @@ On the held-out test set, the model maintained competitive performance:
 | **Accuracy** | **92.45%**  |
 | **Loss**     | **0.23426** |
 
+### Cross-Dataset Evaluation
+
+To assess the generalization capability of the trained model, inference was performed on the validation split of the [**CheXpert**](https://www.kaggle.com/datasets/ashery/chexpert/data) dataset, which was not used during training. The model achieved the following performance metrics:
+
+| Metric       | Value       |
+| ------------ | ----------- |
+| **Mean AUC** | **0.72530** |
+| **Accuracy** | **81.26%**  |
 
 ## 📌 Notes and Observations
 
